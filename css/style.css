@@ -1,0 +1,68 @@
+.container { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.quadro1 { 
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+.quadro3 { 
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 550px;
+    height: 100px;
+    margin: 10px;
+}
+
+.nomeUsuario{ 
+    display: flex;
+    margin: 10px;
+  
+
+}
+
+
+button .limp  {
+    width: 20px;
+    height: 20px;
+}
+
+.quadro2 { 
+    
+    display: flex;
+    justify-content: center;
+}
+
+ #escolher, #escolher2{ 
+width: 100px;
+   height: 25px;
+   font-size: 15px;
+   margin: 10px;
+}
+
+#dobro, #dobro2, #dobro3, #botao, #botoes{ 
+    margin: 10px;
+}
+#email { 
+    width: 250px;
+    margin: 10px;
+}
+
+#idade { 
+    width: 50px;
+}

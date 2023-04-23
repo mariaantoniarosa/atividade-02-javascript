@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades Javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/site.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="quadro1">
+            <h2>Retornando o maior numero do array</h2>
+
+            <div class="quadro2">
+                <input type="number" id="resp" readonly>
+                <input type="button" value="Ver Número" onclick="numArray()">
+            </div>
+
+
+        </div>
+
+        <div class="quadro1">
+            <h2>Somando as caracteres do Array</h2>
+            <div class="quadro2">
+                <input type="text" id="resp2" readonly>
+                <input type="button" value="Ver caract." onclick="numCaracteres()">
+            </div>
+
+        </div>
+        <div class="quadro3">
+
+            <div class="usuario1">
+                <label>Email:</label><input type="email" id="email" placeholder="emai123@gmail.com">
+                <label>Nome:</label><input type="text" id="nome">
+                <input type="button" value="Enviar" onclick="salvaEmail()">
+
+
+            </div>
+
+            <div class="nomeUsuario">
+                <input type="text" id="usuario">
+                <input type="text" id="emailUsuario" readonly>
+            </div>
+
+
+        </div>
+        <div class="quadro1">
+            <h1>Escolha uma fruta</h1>
+            <select name="escolher" id="escolher">
+                <option value="">Escolha</option>
+                <option value="manga">Manga</option>
+                <option value="maça"> Maçã</option>
+                <option value="ameixa">Ameixa</option>
+                <option value="banana">Banana</option>
+
+            </select>
+            <input type="button" value="Enviar" onclick="fruteira()">
+        </div>
+        <div class="quadro1">
+            <h3>Retornando dobro do valor</h3>
+            <input type="text" id="numero">
+            <label>=</label>
+            <input type="number" id="dobro" readonly>
+            <input type="button" value="Enviar" onclick="dobro()">
+
+        </div>
+        <div class="quadro1">
+            <h3>Array de 03 Numeros e respectivo dobro</h3>
+            <input type="text" id="numero2">
+            <input type="number" id="dobro2" readonly>
+            <input type="button" value="Enviar" onclick="dobro2()">
+        </div>
+
+        <div class="quadro1">
+            <h3>Select de Animais</h3>
+            <select name="escolher2" id="escolher2">
+                <option value="onca">Onça</option>
+                <option value="vaca">Vaca</option>
+                <option value="cachorro">Cachorro</option>
+                <option value="gato">Gato</option>
+            </select>
+            <input type="button" value="Enviar" onclick="animais()">
+        </div>
+
+        <div class="quadro1">
+            <input type="button" value="Clique Aqui" onclick="stringMaiuscula()">
+        </div>
+        <div class="quadro1">
+            <input type="number" id="dobro3" value=1 readonly>
+            <input type="button" value="Enviar" onclick="nome(dobro3)">
+        </div>
+
+        <div class="quadro1">
+            <input type="text" id="stringQuant">
+
+            <input type="button" id="botao" value="Enviar" onclick="stringQuant()">
+        </div>
+        <div class="quadro1">
+            <h3>Digite um numero</h3>
+            <input type="number" id="numero3">
+            <input type="button" id="botao" value="Enviar" onclick="fatorar()">
+            <input type="number" id="numero4" readonly>
+
+        </div>
+        <div class="quadro1">
+            <form name="faleconosco" method="post" action="#" onsubmit="validador()">
+                <h1>Login</h1>
+                <label for="email">Email:</label><input type="email" name="txtemail" placeholder="seuemail@hotmail.com"
+                    id="email">
+                <label for="nome" id="nome">Nome:</label><input type="nome" name="txtnome" placeholder="Seu Nome"
+                    id="nome">
+                <div id="botoes">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div class="quadro1">
+            <form name="idadeEaltura" method="post" action="#" onsubmit="validaInfo()">
+                <label for="idade">Idade:</label><input type="idade" name="txtidade" placeholder="18 anos" id="idade">
+                <label for="altura">Altura:</label><input type="altura" name="txtaltura" placeholder="190cm"
+                    id="altura">
+                <div id="botoes">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
